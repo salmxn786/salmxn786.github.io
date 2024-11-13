@@ -1,26 +1,96 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
+    <title>My Week 5 Lab Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My GitHub Pages Website!</h1>
-        <p>This is a simple webpage to demonstrate hosting on GitHub Pages.</p>
+        <h1>Welcome to My Week 5 Lab Page</h1>
+        <p>This page demonstrates what I learned in Week 5 of my course!</p>
     </header>
     
     <main>
-        <p>Enjoy exploring this basic webpage created using HTML, CSS, and JavaScript!</p>
+        <h2>Truth Tables and Logical Operators</h2>
+        <p>We can collate this data into a truth table. This effectively gives a definition of the "and" operator.</p>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>B and A</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>True</td>
+                    <td>True</td>
+                    <td>True</td>
+                </tr>
+                <tr>
+                    <td>True</td>
+                    <td>False</td>
+                    <td>False</td>
+                </tr>
+                <tr>
+                    <td>False</td>
+                    <td>True</td>
+                    <td>False</td>
+                </tr>
+                <tr>
+                    <td>False</td>
+                    <td>False</td>
+                    <td>False</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>The "implies" operator (sometimes denoted with the symbol ⇒) is not implemented in a standard Python environment. It can be defined with the following truth table:</p>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>A ⇒ B</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>True</td>
+                    <td>True</td>
+                    <td>True</td>
+                </tr>
+                <tr>
+                    <td>True</td>
+                    <td>False</td>
+                    <td>False</td>
+                </tr>
+                <tr>
+                    <td>False</td>
+                    <td>True</td>
+                    <td>True</td>
+                </tr>
+                <tr>
+                    <td>False</td>
+                    <td>False</td>
+                    <td>True</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Using built-in logical operators, verify that for any boolean values A and B, the statement A ⇒ B is equivalent to the statement B or not A.</p>
+
     </main>
 
     <footer>
-        <p>Created with ❤️ using GitHub Pages.</p>
+        <p>Created by [Your Name]. Week 5 Lab Workbook Assignment.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
